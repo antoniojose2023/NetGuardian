@@ -94,7 +94,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:text="Clicando no botão abaixo você pode deixar ideias de novas dicas e de seguranção assim como opinar sobre melhorias no app"
+            android:text="Clicando no botão abaixo você pode deixar ideias de novas dicas e de segurança assim como opinar sobre melhorias no app"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/bt_feedback"
             app:layout_constraintEnd_toEndOf="parent"

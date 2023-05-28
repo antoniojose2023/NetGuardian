@@ -15,9 +15,17 @@
         android:theme="@style/Theme.NetGuardian"
         tools:targetApi="31">
         <activity
-            android:name=".DetalhesDicaActivity" android:screenOrientation="portrait"
-            android:theme="@style/Theme.NetGuardianNoActionBar"
-            android:exported="false">
+            android:name=".LinkUteisActivity"
+            android:exported="false"  android:screenOrientation="portrait" android:theme="@style/Theme.NetGuardianNoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DetalhesDicaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.NetGuardianNoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

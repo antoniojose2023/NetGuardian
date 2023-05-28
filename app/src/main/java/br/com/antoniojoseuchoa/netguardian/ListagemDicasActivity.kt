@@ -51,7 +51,7 @@ class ListagemDicasActivity : AppCompatActivity() {
                       binding.rvArtigos.setHasFixedSize(true)
                       binding.rvArtigos.adapter = adapter
                       binding.swipeRefresh.isRefreshing = false
-                      exibirMensagem("Dados carrgados com sucesso . . .")
+                      exibirMensagem("Dados carregados com sucesso . . .")
 
                       adapter.onclick = { artigo ->
                             val intent = Intent(this, DetalhesDicaActivity::class.java)
